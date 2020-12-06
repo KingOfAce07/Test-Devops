@@ -1,4 +1,4 @@
 ---
 serverinventory:
-  -     Short_Description: 'Development  |Linux Patching'
+  - Short_Description: 'Development  |Linux Patching'
     Category: 'Hardware'
