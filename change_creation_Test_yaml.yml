@@ -4,10 +4,10 @@
   gather_facts: no
   connection: local
   vars_files:
-    - Server_Inventory_hosts.yml
+    - Server_Inventory_hosts_Test.yml
   tasks:
   - name: include vars
-    include_vars: change_request_vars.yml
+    include_vars: change_request_Test_vars.yml
   - name: Create a change request
     snow_record:
       state: present
