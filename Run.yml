@@ -1,0 +1,9 @@
+---
+- name: Change creation process begins
+  hosts: localhost
+- import_playbook: change_creation_yaml.yml
+- name: Change creation process end
+  hosts: localhost
+  tasks:
+    - debug: 
+        msg: "change creation process completed successfully"
