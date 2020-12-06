@@ -17,7 +17,7 @@
       instance: "{{ sn_instance }}"
       data:
         short_description: "{{item.Short_Description}}"
-		category: "{{item.Category}}"
+	category: "{{item.Category}}"
       with_items:
            - "{{ serverinventory }}"
     register: new_incident
